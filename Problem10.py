@@ -38,8 +38,8 @@ while i <= 2000000 :
         print(i,"th number passed.")
     print(sum(prime_list)) #answer
 
-#time spent : 0.069 seconds     
-
+#time spent : 20118.971 seconds
+#never use it
 
 #2th way. it's very fast..
 end = 2000000
@@ -60,8 +60,8 @@ for i  in test:
             test[j] = 0
 print(sum(test)) #answer
 
-
-
+#time spent : 1.54 seconds
+#must use it
 
 '''
 Korean version
@@ -97,7 +97,8 @@ while i <= 2000000 :
         print(i,"th number passed.")
     print(sum(prime_list)) #정답!
 
-#걸린 시간 : 0.069 seconds     
+#걸린 시간 : 20118.971 seconds
+#쓰지말자
 
 
 #두 번째 방법. 매우 빠름
@@ -118,3 +119,7 @@ for i  in test:
         for j in range(i*2,end+1,i):
             test[j] = 0
 print(sum(test)) #정답
+
+
+#걸린 시간 : 1.54 seconds
+#꼭 써야함
