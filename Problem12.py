@@ -42,7 +42,7 @@ while len(y_list) < 500 :
                 
 print(sum_number)
 
-#time spent : 1.05 seconds
+#time spent : 14812.83 seconds
 
 
 '''
@@ -86,4 +86,4 @@ while len(y_list) < 500 :
 print(sum_number)
 
 
-#걸린 시간 : 1.05 seconds
+#걸린 시간 : 14812.83 seconds
